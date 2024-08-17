@@ -1,0 +1,6 @@
+A=int(input("Insira o algarismo: "))
+
+if (A%2==0):
+    print("É par")
+else:
+    print("É ímpar")
