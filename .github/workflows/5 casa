@@ -1,0 +1,16 @@
+SB=int(input("Insira o salário bruto: "))
+H=int(input("Insira a quantidade de horas trabalhadas: "))
+
+if (H>0):
+    AD=(SB/160)*((H-160)*1.5)
+if (SB<=800):
+    SF=SB+AD
+else:
+    if (SB<=1600):
+        SF=SB-13/100*1600+AD
+    else:
+        if (SB>1600):
+            SF=SB-21/100*SB+AD
+print(SF)
+
+    
