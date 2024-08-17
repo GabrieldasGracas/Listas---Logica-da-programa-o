@@ -1,0 +1,31 @@
+A=int(input("Insira o primeiro algarismo: "))
+B=int(input("Insira o segundo algarismo: "))
+C=int(input("Insira o terceiro algarismo: "))
+
+if (A>B) and (A>C):
+    print(A, "é o maior algarismo.")
+else:
+    if (B>A) and (B>C):
+        print(B, "é o maior algarismo.")
+    else:
+        if (C>A) and (C>B):
+            print(C, "é o maior algarismo.")
+if (A<B) and (A<C):
+    print(A, "é o menor algarismo.")
+else:
+    if (B<A) and (B<C):
+        print(B, "é o menor algarismo.")
+    else:
+        if (C<A) and (C<B):
+            print(C, "é o menor algarismo.")
+if (A>B) and (A<C) or (A>C) and (A<B):
+    print(A, "é o numero do meio.")
+else:
+    if (B>A and B<C) or (B>C) and (B<A):
+        print(B, "é o numero do meio.")
+    else:
+        if (C>A) and (C<B) or (C>B) and (C<A):
+            print(C, "é o numero do meio.")
+
+
+    
