@@ -1,0 +1,9 @@
+X=int(input("Insira o primeiro algarismo: "))
+Y=int(input("Insira o segundo algarismo: "))
+Z=int(input("Insira o terceiro algarismo: "))
+A=int(input("Insira o quarto algarismo: "))
+B=int(input("Insira o quinto algarismo: "))
+if (X==1) and (Y==2) and (Z==3) and (A==4) and (B==5):
+    print("Engenharia, Edificações, Sistemas Elétricos, Turismo e Análise de Sistemas")
+else:
+    print("Código inválido")
